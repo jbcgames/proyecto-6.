@@ -37,3 +37,32 @@ module testbench_book();
 		end
 	end
 endmodule
+module Testbench_propio();
+	logic clk;
+	logic reset;
+	logic [31:0] WriteData, DataAdr;
+	logic MemWrite;
+
+	// instantiate device to be tested
+	top dut(clk, reset, WriteData, DataAdr, MemWrite);
+
+	// initialize test
+	initial
+	begin
+		reset <= 0; # 22; reset <= 1;
+	end
+
+	// generate clock to sequence tests
+	always
+	begin
+		clk <= 1; # 5; clk <= 0; # 5;
+	end
+
+	// check that 7 gets written to address 0x64
+	// at end of program
+	always @(negedge clk)
+	begin
+	#50;
+	$stop;
+	end
+endmodule

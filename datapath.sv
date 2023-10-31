@@ -16,7 +16,7 @@ module datapath(input logic clk, reset,
 					 input logic [31:0] ReadData);
 	// Internal signals
 	logic [31:0] PCNext, PCPlus4, PCPlus8;
-	logic [31:0] ExtImm, SrcA, SrcB, Result;
+	logic [31:0] ExtImm, SrcA, SrcB, Result, ToAluB;
 	logic [3:0] RA1, RA2;
 	
 	// next PC logic
@@ -34,5 +34,6 @@ module datapath(input logic clk, reset,
 
 	// ALU logic
 	mux2 #(32) srcbmux(WriteData, ExtImm, ALUSrc, SrcB);
-	alu #(32) alu(SrcA, SrcB, ALUControl, ALUResult, ALUFlags);
+	pre_alu pre(SrcB, ALUControl, Instr[11:0], ToAluB);
+	alu #(32) alu(SrcA, ToAluB, ALUControl, ALUResult, ALUFlags);
 endmodule

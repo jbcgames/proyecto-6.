@@ -47,6 +47,7 @@ vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10
 vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/mux2.sv}
 vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopr.sv}
 vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopenr.sv}
+vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv}
 vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
 vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv}
 

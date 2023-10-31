@@ -9,13 +9,13 @@ module dmem(input logic clk, we, input logic [31:0] a, wd, output logic [31:0] r
 
 	initial
 		// Descomente solo la siguiente línea para cargar los datos requeridos para el banco de pruebas del libro.
-		$readmemh("C:/Users/MiguelAngelAlvarezGu/Proyect/ARM-SingleCycle/dmem_tb_from_book.dat",RAM);
+		//$readmemh("C:/Users/MiguelAngelAlvarezGu/Proyect/ARM-SingleCycle/dmem_tb_from_book.dat",RAM);
 		
 		// Descomente solo la siguiente línea para cargar los datos requeridos para la prueba de periféricos
 		// $readmemh("dmem_to_test_peripherals.dat",RAM);
 
 		// Descomente solo la siguiente línea para cargar los datos requeridos para el programa realizado por los estudiantes
-		// $readmemh("dmem_made_by_students.dat",RAM);
+		$readmemh("D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem_made_by_students.dat",RAM);
 	
 	// Proceso de lectura desde matriz RAM o periféricos mapeados en memoria
 	always_comb

@@ -18,6 +18,9 @@ module alu #(parameter N = 4) (A, B, ALUControl, Result, ALUFlags);
 			3'b010: begin
 				Result = A & B;
 			end
+			3'b100: begin
+				Result = B;
+			end
 			default: begin
 				{Cout, Result} = {1'b0, A} + {1'b0, (ALUControl[0] == 1'b0 ? B : ~B)} + ALUControl[0];
 			end

@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Mon Oct 30 21:54:52 2023
+Analysis & Synthesis Status : Successful - Tue Oct 31 01:35:14 2023
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : top
 Top-level Entity Name : top
 Family : MAX 10
-Total logic elements : 5,148
-    Total combinational functions : 2,642
-    Dedicated logic registers : 2,573
-Total registers : 2573
+Total logic elements : 349
+    Total combinational functions : 349
+    Dedicated logic registers : 62
+Total registers : 62
 Total pins : 87
 Total virtual pins : 0
 Total memory bits : 0

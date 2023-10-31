@@ -1,5 +1,5 @@
 /*
- * This module is the Register File of the Datapath Unit
+ * Este módulo es el archivo de registro de la unidad Datapath.
  */ 
 module regfile(input logic clk,
 					input logic we3,
@@ -10,13 +10,13 @@ module regfile(input logic clk,
 	// Internal signals
 	logic [31:0] rf[14:0];
 	
-	// Three ported register file
-	// Write third port on rising edge of clock
+// Archivo de registro de tres puertos
+// Escribe el tercer puerto en el flanco ascendente del reloj
 	always_ff @(posedge clk)
 		if (we3) rf[wa3] <= wd3;
 		
-	// Read two ports combinationally
-	// register 15 reads PC + 8 instead
+// Lee dos puertos de forma combinada
+// registra 15 lecturas PC + 8 en su lugar
 	assign rd1 = (ra1 == 4'b1111) ? r15 : rf[ra1];
 	assign rd2 = (ra2 == 4'b1111) ? r15 : rf[ra2];
 endmodule

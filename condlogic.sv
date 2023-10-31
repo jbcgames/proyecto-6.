@@ -1,5 +1,5 @@
 /*
- * This module is the Conditional Logic block of the Control Unit
+ * Este módulo es el bloque de lógica condicional de la unidad de control.
  */ 
 module condlogic(input logic clk, reset,
 						input logic [3:0] Cond,
@@ -13,10 +13,10 @@ module condlogic(input logic clk, reset,
 	logic [3:0] Flags;
 	logic CondEx;
 
-	// Registers to store the ALUFlags when S == 1
+// Registra para almacenar las ALUFlags cuando S == 1
 	flopenr #(2)flagreg1(clk, reset, FlagWrite[1], ALUFlags[3:2], Flags[3:2]);
 	flopenr #(2)flagreg0(clk, reset, FlagWrite[0], ALUFlags[1:0], Flags[1:0]);
-	// write controls are conditional
+// los controles de escritura son condicionales
 	condcheck cc(Cond, Flags, CondEx);
 	assign FlagWrite = FlagW & {2{CondEx}};
 	assign RegWrite = RegW & CondEx;
@@ -25,16 +25,16 @@ module condlogic(input logic clk, reset,
 endmodule
 
 /*
- * This submodule is the Condition Check block of the Conditional Logic block
+ * Este submódulo es el bloque de verificación de condición del bloque de lógica condicional.
  */ 
 module condcheck(input logic [3:0] Cond,
 						input logic [3:0] Flags,
 						output logic CondEx);
-	// Internal signals
+// señales internas
 	logic neg, zero, carry, overflow, ge;
 	assign {neg, zero, carry, overflow} = Flags;
 	assign ge = (neg == overflow);
-	// Combinational process to check conditions
+// Proceso combinacional para verificar condiciones
 	always_comb
 		case(Cond)
 			4'b0000: CondEx = zero; // EQ
