@@ -917,3 +917,582 @@ run -all
 # ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
 #    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
 # Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:03:39 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv 
+# -- Compiling module pre_alu
+# 
+# Top level modules:
+# 	pre_alu
+# End time: 02:03:39 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:04:40 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:04:40 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# Loading work.pre_alu
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:05:37 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:05:39 on Oct 31,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:06:13 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:06:13 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:06:58 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:06:58 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:07:50 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:07:50 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:11:07 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:11:08 on Oct 31,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:11:46 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:11:46 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:13:36 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:13:37 on Oct 31,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+restart
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:15:40 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:15:40 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+add wave -position end  sim:/Testbench_propio/dut/arm/ALUFlags
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+add wave -position end  sim:/Testbench_propio/dut/arm/dp/rf/rf
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:18:40 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:18:40 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vsim work.testbench_book
+# End time: 02:23:52 on Oct 31,2023, Elapsed time: 0:44:09
+# Errors: 0, Warnings: 3
+# vsim work.testbench_book 
+# Start time: 02:23:52 on Oct 31,2023
+# Loading sv_std.std
+# Loading work.testbench_book
+# Loading work.top
+# Loading work.imem
+# Loading work.dmem
+# Loading work.arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.adder
+# Loading work.regfile
+# Loading work.extend
+# Loading work.pre_alu
+# Loading work.alu
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_book/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 11
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(11): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(11): [TFMPC] - Missing connection for port 'leds'.
+run -all
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:25:29 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:25:29 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_book/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 11
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(11): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(11): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# Simulation succeeded
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(32)
+#    Time: 205 ps  Iteration: 1  Instance: /testbench_book
+# Break in Module testbench_book at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 32
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:51 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv 
+# -- Compiling module pre_alu
+# 
+# Top level modules:
+# 	pre_alu
+# End time: 03:07:51 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:55 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 03:07:55 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Testbench_propio
+# End time: 03:08:00 on Oct 31,2023, Elapsed time: 0:44:08
+# Errors: 0, Warnings: 3
+# vsim work.Testbench_propio 
+# Start time: 03:08:00 on Oct 31,2023
+# Loading sv_std.std
+# Loading work.Testbench_propio
+# Loading work.top
+# Loading work.imem
+# Loading work.dmem
+# Loading work.arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.adder
+# Loading work.regfile
+# Loading work.extend
+# Loading work.pre_alu
+# Loading work.alu
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:08:07 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 03:08:07 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+add wave -position end  sim:/Testbench_propio/dut/arm/dp/rf/rf
+add wave -position end  sim:/Testbench_propio/dut/arm/dp/pre/Result
+add wave -position 1  sim:/Testbench_propio/dut/arm/dp/pre/SrcB
+add wave -position end  sim:/Testbench_propio/dut/arm/dp/pre/Alu_Control
+run -all
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vsim work.imem
+# End time: 03:09:40 on Oct 31,2023, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 3
+# vsim work.imem 
+# Start time: 03:09:41 on Oct 31,2023
+# Loading sv_std.std
+# Loading work.imem
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:10:09 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 03:10:09 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Testbench_propio
+# End time: 03:10:14 on Oct 31,2023, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim work.Testbench_propio 
+# Start time: 03:10:14 on Oct 31,2023
+# Loading sv_std.std
+# Loading work.Testbench_propio
+# Loading work.top
+# Loading work.imem
+# Loading work.dmem
+# Loading work.arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.adder
+# Loading work.regfile
+# Loading work.extend
+# Loading work.pre_alu
+# Loading work.alu
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+add wave -position end  sim:/Testbench_propio/dut/arm/dp/rf/rf
+add wave -position end  sim:/Testbench_propio/dut/arm/dp/pre/Result
+add wave -position 1  sim:/Testbench_propio/dut/arm/dp/pre/SrcB
+add wave -position end  sim:/Testbench_propio/dut/arm/dp/pre/Alu_Control
+run -all
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:12:41 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 03:12:41 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 55 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -work work {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:14:57 on Oct 31,2023
+# vlog -reportprogress 300 -work work D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv 
+# -- Compiling module testbench_book
+# -- Compiling module Testbench_propio
+# 
+# Top level modules:
+# 	testbench_book
+# 	Testbench_propio
+# End time: 03:14:57 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:15:04 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 03:15:04 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Testbench_propio
+# Loading work.imem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 85 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:17:13 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 03:17:13 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:17:49 on Oct 31,2023
+# vlog -reportprogress 300 -work work D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv 
+# -- Compiling module testbench_book
+# -- Compiling module Testbench_propio
+# 
+# Top level modules:
+# 	testbench_book
+# 	Testbench_propio
+# End time: 03:17:49 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mux2
+# End time: 03:17:59 on Oct 31,2023, Elapsed time: 0:07:45
+# Errors: 0, Warnings: 3
+# vsim work.mux2 
+# Start time: 03:17:59 on Oct 31,2023
+# Loading sv_std.std
+# Loading work.mux2
+vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:18:05 on Oct 31,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 03:18:06 on Oct 31,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.Testbench_propio
+# End time: 03:18:12 on Oct 31,2023, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+# vsim work.Testbench_propio 
+# Start time: 03:18:12 on Oct 31,2023
+# Loading sv_std.std
+# Loading work.Testbench_propio
+# Loading work.top
+# Loading work.imem
+# Loading work.dmem
+# Loading work.arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.adder
+# Loading work.regfile
+# Loading work.extend
+# Loading work.pre_alu
+# Loading work.alu
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+add wave -position end  sim:/Testbench_propio/dut/arm/dp/rf/rf
+run -continue
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench_propio/dut File: D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv Line: 47
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(47): [TFMPC] - Missing connection for port 'leds'.
+run -all
+# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv(66)
+#    Time: 145 ps  Iteration: 0  Instance: /Testbench_propio
+# Break in Module Testbench_propio at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_book.sv line 66

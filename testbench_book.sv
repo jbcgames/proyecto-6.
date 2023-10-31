@@ -62,7 +62,7 @@ module Testbench_propio();
 	// at end of program
 	always @(negedge clk)
 	begin
-	#50;
+	#140;
 	$stop;
 	end
 endmodule
