@@ -8,29 +8,32 @@ module decoder(input logic [1:0] Op,
 					output logic PCS, RegW, MemW,
 					output logic MemtoReg, ALUSrc,
 					output logic [1:0] ImmSrc, RegSrc,
-					output logic [2:0] ALUControl);
+					output logic [2:0] ALUControl,
+					output logic BL);
 	// Internal signals
-	logic [9:0] controls;
+	logic [10:0] controls;
 	logic Branch, ALUOp;
 
 	// Main del Decodificador
 	always_comb
 		casex(Op)
 											// Tratamiento de datos inmediato
-			2'b00: 	if (Funct[5])	controls = 10'b0000101001;
+			2'b00: 	if (Funct[5])	controls = 11'b00001010010;
 											// Registro de procesamiento de datos
-						else				controls = 10'b0000001001;
+						else				controls = 11'b00000010010;
 											// LDR
-			2'b01: 	if (Funct[0])	controls = 10'b0001111000;
+			2'b01: 	if (Funct[0])	controls = 11'b00011110000;
 											// STR
-						else				controls = 10'b1001110100;
+						else				controls = 11'b10011101000;
 											// B
-			2'b10: 						controls = 10'b0110100010;
+			2'b10: 	if (Funct[5])	controls = 11'b01101000101;
+			
+						else 				controls = 11'b01101000100;
 											//	No implementado
 			default: 					controls = 10'bx;
 		endcase
 		
-	assign {RegSrc, ImmSrc, ALUSrc, MemtoReg, RegW, MemW, Branch, ALUOp} = controls;
+	assign {RegSrc, ImmSrc, ALUSrc, MemtoReg, RegW, MemW, Branch, ALUOp, BL} = controls;
 
 	// ALU Decoder
 	always_comb
