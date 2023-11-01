@@ -15,7 +15,7 @@ module dmem(input logic clk, we, input logic [31:0] a, wd, output logic [31:0] r
 		// $readmemh("dmem_to_test_peripherals.dat",RAM);
 
 		// Descomente solo la siguiente línea para cargar los datos requeridos para el programa realizado por los estudiantes
-		$readmemh("/media/estudiante/243E445A3E442760/proyecto-6.-master/dmem_made_by_students.dat",RAM);
+		$readmemh("D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem_made_by_students.dat",RAM);
 	
 	// Proceso de lectura desde matriz RAM o periféricos mapeados en memoria
 	always_comb
