@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/proyecto-6.-master/simulation/modelsim
+vtestbench_peripherals
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1698791074
+!i10b 1
+!s100 _:Fh>@ne;5ddVPNCDDeTY3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IJMNYZKhM<ic^j9:;DHkk51
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1698791282
+8E:/proyecto-6.-master/testbench_peripherals.sv
+FE:/proyecto-6.-master/testbench_peripherals.sv
+!i122 0
+L0 4 30
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1698791074.000000
+!s107 E:/proyecto-6.-master/testbench_peripherals.sv|
+!s90 -reportprogress|300|-work|work|E:/proyecto-6.-master/testbench_peripherals.sv|
+!i113 1
+o-work work
+tCvgOpt 0

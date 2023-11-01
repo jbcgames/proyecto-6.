@@ -26,7 +26,7 @@ module decoder(input logic [1:0] Op,
 											// STR
 						else				controls = 11'b10011101000;
 											// B
-			2'b10: 	if (Funct[5])	controls = 11'b01101000101;
+			2'b10: 	if (Funct[4])	controls = 11'b01101000101;
 			
 						else 				controls = 11'b01101000100;
 											//	No implementado
