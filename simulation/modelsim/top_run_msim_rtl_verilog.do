@@ -34,20 +34,20 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/top.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/arm.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/controller.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/decoder.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/condlogic.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/datapath.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/regfile.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/alu.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/extend.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/adder.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/mux2.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopr.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopenr.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
-vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/top.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/arm.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/controller.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/decoder.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/condlogic.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/datapath.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/regfile.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/alu.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/extend.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/adder.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/mux2.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopr.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopenr.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/pre_alu.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/imem.sv}
+vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/dmem.sv}
 

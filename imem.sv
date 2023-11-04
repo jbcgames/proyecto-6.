@@ -15,7 +15,7 @@ module imem(input logic [31:0] a, output logic [31:0] rd);
 		// $readmemh("imem_to_test_peripherals.dat",RAM);
 		
 		// Descomente solo la siguiente línea para cargar el código creado por los estudiantes
-		 $readmemh("D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem_made_by_students.dat",RAM);
+		$readmemh("F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/imem_made_by_students.dat",RAM);
 
 	assign rd = RAM[a[31:2]]; // palabra alineada
 endmodule

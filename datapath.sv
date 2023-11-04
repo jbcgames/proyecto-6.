@@ -32,9 +32,8 @@ module datapath(input logic clk, reset,
 	regfile rf(clk, RegWrite, RA1, RA2, Instr[15:12], Result, PCPlus8, SrcA, WriteData, BL);
 	mux2 #(32) resmux(ALUResult, ReadData, MemtoReg, Result);
 	extend ext(Instr[23:0], ImmSrc, ExtImm);
-
 	// ALU logic
-	mux2 #(32) srcbmux(WriteData, ExtImm, ALUSrc, SrcB);
-	pre_alu pre(SrcB, ALUControl, Instr[25], Instr[11:0], ToAluB);
+	mux2 #(32) srcbmux(SrcB, ExtImm, ALUSrc, ToAluB);
+	pre_alu pre(/*SrcB*/WriteData, Instr[11:0], SrcB);
 	alu #(32) alu(SrcA, ToAluB, ALUControl, ALUResult, ALUFlags);
 endmodule

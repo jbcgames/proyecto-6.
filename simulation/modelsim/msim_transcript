@@ -13,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {d:/users/questa/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:50:55 on Oct 31,2023
+# Start time: 21:52:37 on Nov 03,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver d:/users/questa/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 19:50:56 on Oct 31,2023, Elapsed time: 0:00:01
+# End time: 21:52:38 on Nov 03,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {d:/users/questa/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:01 on Oct 31,2023
+# Start time: 21:52:39 on Nov 03,2023
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/users/questa/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 19:51:01 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:40 on Nov 03,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {d:/users/questa/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:01 on Oct 31,2023
+# Start time: 21:52:40 on Nov 03,2023
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/users/questa/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 19:51:02 on Oct 31,2023, Elapsed time: 0:00:01
+# End time: 21:52:40 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {d:/users/questa/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:03 on Oct 31,2023
+# Start time: 21:52:40 on Nov 03,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/users/questa/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 19:51:04 on Oct 31,2023, Elapsed time: 0:00:01
+# End time: 21:52:43 on Nov 03,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {d:/users/questa/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:05 on Oct 31,2023
+# Start time: 21:52:44 on Nov 03,2023
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/users/questa/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 19:51:06 on Oct 31,2023, Elapsed time: 0:00:01
+# End time: 21:52:46 on Nov 03,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/fiftyfivenm_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work fiftyfivenm_ver {d:/users/questa/quartus/eda/sim_lib/fiftyfivenm_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:06 on Oct 31,2023
+# Start time: 21:52:46 on Nov 03,2023
 # vlog -reportprogress 300 -vlog01compat -work fiftyfivenm_ver d:/users/questa/quartus/eda/sim_lib/fiftyfivenm_atoms.v 
 # -- Compiling UDP FIFTYFIVENM_PRIM_DFFE
 # -- Compiling UDP FIFTYFIVENM_PRIM_DFFEAS
@@ -562,15 +562,15 @@
 # 	fiftyfivenm_jtag
 # 	fiftyfivenm_adcblock
 # 	fiftyfivenm_phase_detector
-# End time: 19:51:07 on Oct 31,2023, Elapsed time: 0:00:01
+# End time: 21:52:48 on Nov 03,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work fiftyfivenm_ver {d:/users/questa/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:07 on Oct 31,2023
+# Start time: 21:52:48 on Nov 03,2023
 # vlog -reportprogress 300 -vlog01compat -work fiftyfivenm_ver d:/users/questa/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 19:51:10 on Oct 31,2023, Elapsed time: 0:00:03
+# End time: 21:52:51 on Nov 03,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -582,181 +582,181 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/top.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:10 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/top.sv 
+# Start time: 21:52:51 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/top.sv 
 # -- Compiling module top
 # 
 # Top level modules:
 # 	top
-# End time: 19:51:10 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:51 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/arm.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/arm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:11 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/arm.sv 
+# Start time: 21:52:51 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/arm.sv 
 # -- Compiling module arm
 # 
 # Top level modules:
 # 	arm
-# End time: 19:51:11 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:51 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/controller.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:11 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/controller.sv 
+# Start time: 21:52:52 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/controller.sv 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 19:51:11 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:52 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/decoder.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:11 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/decoder.sv 
+# Start time: 21:52:52 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/decoder.sv 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 19:51:11 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:52 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/condlogic.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/condlogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:11 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/condlogic.sv 
+# Start time: 21:52:52 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/condlogic.sv 
 # -- Compiling module condlogic
 # -- Compiling module condcheck
 # 
 # Top level modules:
 # 	condlogic
-# End time: 19:51:11 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:52 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/datapath.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:11 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/datapath.sv 
+# Start time: 21:52:52 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 19:51:11 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:52 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/regfile.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:11 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/regfile.sv 
+# Start time: 21:52:52 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/regfile.sv 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 19:51:11 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:52 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/alu.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:11 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/alu.sv 
+# Start time: 21:52:52 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 19:51:11 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:52 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/extend.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:11 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/extend.sv 
+# Start time: 21:52:52 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/extend.sv 
 # -- Compiling module extend
 # 
 # Top level modules:
 # 	extend
-# End time: 19:51:11 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:53 on Nov 03,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/adder.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:12 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/adder.sv 
+# Start time: 21:52:53 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/adder.sv 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 19:51:12 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:53 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/mux2.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/mux2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:12 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/mux2.sv 
+# Start time: 21:52:53 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/mux2.sv 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 19:51:12 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:53 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopr.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:12 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopr.sv 
+# Start time: 21:52:53 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopr.sv 
 # -- Compiling module flopr
 # 
 # Top level modules:
 # 	flopr
-# End time: 19:51:12 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:53 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopenr.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopenr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:12 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopenr.sv 
+# Start time: 21:52:53 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopenr.sv 
 # -- Compiling module flopenr
 # 
 # Top level modules:
 # 	flopenr
-# End time: 19:51:12 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:53 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/pre_alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:12 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv 
+# Start time: 21:52:53 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/pre_alu.sv 
 # -- Compiling module pre_alu
 # 
 # Top level modules:
 # 	pre_alu
-# End time: 19:51:12 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:53 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/imem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:12 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
+# Start time: 21:52:53 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/imem.sv 
 # -- Compiling module imem
 # 
 # Top level modules:
 # 	imem
-# End time: 19:51:12 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:53 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/Escritorio/Universidad/Electronica\ Digital/26-10-23/ARM-SingleCycle {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv}
+# vlog -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle {F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/dmem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:12 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv 
+# Start time: 21:52:53 on Nov 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle" F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/dmem.sv 
 # -- Compiling module dmem
 # 
 # Top level modules:
 # 	dmem
-# End time: 19:51:12 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:52:53 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vlog -reportprogress 300 -work work {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv}
+vlog -reportprogress 300 -work work F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/testbench_peripherals.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:51:14 on Oct 31,2023
-# vlog -reportprogress 300 -work work D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv 
+# Start time: 21:53:05 on Nov 03,2023
+# vlog -reportprogress 300 -work work F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/testbench_peripherals.sv 
 # -- Compiling module testbench_peripherals
 # 
 # Top level modules:
 # 	testbench_peripherals
-# End time: 19:51:14 on Oct 31,2023, Elapsed time: 0:00:00
+# End time: 21:53:05 on Nov 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.testbench_peripherals
 # vsim work.testbench_peripherals 
-# Start time: 19:51:18 on Oct 31,2023
+# Start time: 21:53:09 on Nov 03,2023
 # Loading sv_std.std
 # Loading work.testbench_peripherals
 # Loading work.top
@@ -776,87 +776,18 @@ vsim work.testbench_peripherals
 # Loading work.extend
 # Loading work.pre_alu
 # Loading work.alu
-add wave -position end sim:/testbench_peripherals/dut/imem/*
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Miguel  Hostname: MIGUEL-PORTATIL  ProcessID: 8696
-#           Attempting to use alternate WLF file "./wlftah72qk".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftah72qk
-add wave -position end  sim:/testbench_peripherals/dut/arm/dp/PC
 add wave -position end  sim:/testbench_peripherals/dut/arm/dp/rf/rf
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: estudiante  Hostname: MINILED06  ProcessID: 38326
+#           Attempting to use alternate WLF file "./wlftd7h9f1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftd7h9f1
+add wave -position end  sim:/testbench_peripherals/dut/arm/dp/PC
+add wave -position end sim:/testbench_peripherals/dut/dmem/*
 run -all
-# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv(24)
+# ** Note: $stop    : F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/testbench_peripherals.sv(24)
 #    Time: 20010 ps  Iteration: 0  Instance: /testbench_peripherals
-# Break in Module testbench_peripherals at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv line 24
-restart
-vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:55:44 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv 
-# -- Compiling module dmem
-# 
-# Top level modules:
-# 	dmem
-# End time: 19:55:44 on Oct 31,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:55:46 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv 
-# -- Compiling module imem
-# 
-# Top level modules:
-# 	imem
-# End time: 19:55:47 on Oct 31,2023, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.imem
-# Loading work.dmem
-run -all
-# GetModuleFileName: No se puede encontrar el módulo especificado.
-# 
-# 
-# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv(24)
-#    Time: 20010 ps  Iteration: 0  Instance: /testbench_peripherals
-# Break in Module testbench_peripherals at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv line 24
-vlog -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle} {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:57:12 on Oct 31,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle" D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv 
-# -- Compiling module dmem
-# 
-# Top level modules:
-# 	dmem
-# End time: 19:57:12 on Oct 31,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.dmem
-run -all
-# GetModuleFileName: No se puede encontrar el módulo especificado.
-# 
-# 
-# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv(24)
-#    Time: 20010 ps  Iteration: 0  Instance: /testbench_peripherals
-# Break in Module testbench_peripherals at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv line 24
-vlog -work work {D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:59:22 on Oct 31,2023
-# vlog -reportprogress 300 -work work D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv 
-# -- Compiling module testbench_peripherals
-# 
-# Top level modules:
-# 	testbench_peripherals
-# End time: 19:59:22 on Oct 31,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.testbench_peripherals
-run -all
-# GetModuleFileName: No se puede encontrar el módulo especificado.
-# 
-# 
-# ** Note: $stop    : D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv(24)
-#    Time: 20010 ps  Iteration: 0  Instance: /testbench_peripherals
-# Break in Module testbench_peripherals at D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv line 24
-# End time: 20:00:31 on Oct 31,2023, Elapsed time: 0:09:13
-# Errors: 0, Warnings: 0
+# Break in Module testbench_peripherals at F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/testbench_peripherals.sv line 24
+# Can't move the Now cursor.
+# End time: 21:54:20 on Nov 03,2023, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 2

@@ -13,12 +13,15 @@ module regfile(input logic clk,
 	
 // Archivo de registro de tres puertos
 // Escribe el tercer puerto en el flanco ascendente del reloj
-	always_ff @(posedge clk)
-		if (BL)
-			rf[14] <= r15-32'h4;
-		else
-		if (we3) rf[wa3] <= wd3;
-		
+	always_ff @(posedge clk) begin
+
+		if (we3) begin
+			if (BL)
+				rf[14] <= r15-32'h4;
+			else
+				rf[wa3] <= wd3;
+		end
+	end
 // Lee dos puertos de forma combinada
 // registra 15 lecturas PC + 8 en su lugar
 	assign rd1 = (ra1 == 4'b1111) ? r15 : rf[ra1];

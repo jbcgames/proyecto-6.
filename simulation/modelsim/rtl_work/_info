@@ -8,81 +8,81 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/simulation/modelsim
+Z0 dF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1698799872
+Z2 !s110 1699066373
 !i10b 1
 !s100 JTfFXPzbz[VGo95PdjoZI1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IVK4CYjoWT^6D]SiehQKoC2
+IShJR^ELP72NB]LYHziFDK3
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
 Z5 w1698745964
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/adder.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/adder.sv
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/adder.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/adder.sv
 !i122 9
 L0 4 5
 Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1698799872.000000
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/adder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/adder.sv|
+Z7 !s108 1699066373.000000
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/adder.sv|
 !i113 1
 Z8 o-sv -work work
-Z9 !s92 -sv -work work {+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle}
+Z9 !s92 -sv -work work +incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle
 Z10 tCvgOpt 0
 valu
 R1
-Z11 !s110 1698799871
+Z11 !s110 1699066372
 !i10b 1
 !s100 ZR]6jWXheoD9o>K_d6W;C0
 R3
-IPNdkmeeKhk_ik^fma=fAD0
+If``c<h5lDWb:AaQ?jU03J2
 R4
 S1
 R0
 R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/alu.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/alu.sv
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/alu.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/alu.sv
 !i122 7
 L0 4 35
 R6
 r1
 !s85 0
 31
-Z12 !s108 1698799871.000000
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/alu.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/alu.sv|
+Z12 !s108 1699066372.000000
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/alu.sv|
 !i113 1
 R8
 R9
 R10
 varm
 R1
-R11
+Z13 !s110 1699066371
 !i10b 1
 !s100 2B5;1oz[h?MPY=cfA<UaS1
 R3
-I]n6h;bcjHloSVM<LLMiUl0
+IhG9g25;X5EDG:GTPz>Nlf0
 R4
 S1
 R0
 R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/arm.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/arm.sv
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/arm.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/arm.sv
 !i122 1
 L0 5 27
 R6
 r1
 !s85 0
 31
-R12
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/arm.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/arm.sv|
+Z14 !s108 1699066371.000000
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/arm.sv|
 !i113 1
 R8
 R9
@@ -93,13 +93,13 @@ R11
 !i10b 1
 !s100 fDai:?4ANiM5Sj22:?Jnk2
 R3
-IFQ`VNKVgbCICaK1IO<]=S3
+ICc>68^J@MLCONiWgjMl9:1
 R4
 S1
 R0
 R5
-Z13 8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/condlogic.sv
-Z14 FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/condlogic.sv
+Z15 8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/condlogic.sv
+Z16 FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/condlogic.sv
 !i122 4
 L0 30 28
 R6
@@ -107,8 +107,8 @@ r1
 !s85 0
 31
 R12
-Z15 !s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/condlogic.sv|
-Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/condlogic.sv|
+Z17 !s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/condlogic.sv|
+Z18 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/condlogic.sv|
 !i113 1
 R8
 R9
@@ -119,22 +119,22 @@ R11
 !i10b 1
 !s100 8b>EmRbdhGdJGHe=i0oT`0
 R3
-IVWoZ]:f^5285DR[UD`o<]2
+I<3Ae8^Fl1:ji4OOn]E0@52
 R4
 S1
 R0
 R5
-R13
-R14
+R15
+R16
 !i122 4
-Z17 L0 4 22
+Z19 L0 4 22
 R6
 r1
 !s85 0
 31
 R12
-R15
-R16
+R17
+R18
 !i113 1
 R8
 R9
@@ -145,22 +145,22 @@ R11
 !i10b 1
 !s100 zZ7Lg[GzCn2V6`3IdS23a2
 R3
-I@2^4F`cbedQQD^X_VX>`H2
+ISBJ8n][8oZQbfg`_k9iLQ0
 R4
 S1
 R0
 R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/controller.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/controller.sv
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/controller.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/controller.sv
 !i122 2
-R17
+R19
 R6
 r1
 !s85 0
 31
 R12
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/controller.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/controller.sv|
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/controller.sv|
 !i113 1
 R8
 R9
@@ -169,24 +169,24 @@ vdatapath
 R1
 R11
 !i10b 1
-!s100 41Vm2=z>b0gYK2T7Mz34I3
+!s100 E@_6H@Tcae]YmmjI=<l?M2
 R3
-IBDNI_d1zHo>AmR]RQC1QX1
+IM:9VN4;72oJzjL>7e>8e71
 R4
 S1
 R0
-R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/datapath.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/datapath.sv
+w1699066247
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/datapath.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/datapath.sv
 !i122 5
-L0 4 37
+L0 4 36
 R6
 r1
 !s85 0
 31
 R12
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/datapath.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/datapath.sv|
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/datapath.sv|
 !i113 1
 R8
 R9
@@ -195,15 +195,15 @@ vdecoder
 R1
 R11
 !i10b 1
-!s100 =R[f;57>k3mnV;NZad[kI3
+!s100 XgSVzh`Ef8bizn0z1YC:d2
 R3
-I>1UMe?HBoKQYQ6<16>^ok0
+I7H`_QCiKmR8KGOmDhz]?N3
 R4
 S1
 R0
-w1698782672
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/decoder.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/decoder.sv
+w1699046656
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/decoder.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/decoder.sv
 !i122 3
 L0 4 59
 R6
@@ -211,51 +211,51 @@ r1
 !s85 0
 31
 R12
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/decoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/decoder.sv|
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/decoder.sv|
 !i113 1
 R8
 R9
 R10
 vdmem
 R1
-!s110 1698800232
+R2
 !i10b 1
-!s100 5cNOIm8gE;31SoK3l`i;i3
+!s100 1lBShk;lH4md]`_173f9k1
 R3
-I_CNFfk13FN0IXBJj<UCP]0
+IN_jMZR031RG7PmfeS_IhS3
 R4
 S1
 R0
-w1698799177
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv
-!i122 19
+w1699065892
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/dmem.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/dmem.sv
+!i122 15
 L0 5 31
 R6
 r1
 !s85 0
 31
-!s108 1698800232.000000
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/dmem.sv|
+R7
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/dmem.sv|
 !i113 1
 R8
 R9
 R10
 vextend
 R1
-R11
+R2
 !i10b 1
 !s100 [g1zg?AJCcDL2m_=Q@Wg90
 R3
-IKGkU`<BJEj`_^SdlFCnze2
+IMG8la4BE_L@3G;Hg7[[HB2
 R4
 S1
 R0
 R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/extend.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/extend.sv
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/extend.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/extend.sv
 !i122 8
 L0 4 14
 R6
@@ -263,8 +263,8 @@ r1
 !s85 0
 31
 R12
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/extend.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/extend.sv|
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/extend.sv|
 !i113 1
 R8
 R9
@@ -275,22 +275,22 @@ R2
 !i10b 1
 !s100 jllLgcS5=17jA`lP8EdXJ2
 R3
-IDG=3JdS=o;A>W`KC^4AbT2
+I=[ckGF[TVCDzaD^e:[mgM1
 R4
 S1
 R0
 R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopenr.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopenr.sv
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopenr.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopenr.sv
 !i122 12
-Z18 L0 4 10
+Z20 L0 4 10
 R6
 r1
 !s85 0
 31
 R7
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopenr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopenr.sv|
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopenr.sv|
 !i113 1
 R8
 R9
@@ -301,48 +301,48 @@ R2
 !i10b 1
 !s100 <DdH1fQQjAcX5`:nKh6a=1
 R3
-Iaa^QZKdazN>eJJdNWYj^U3
+ILIWViDlMF?Voe4g:`1JL32
 R4
 S1
 R0
 R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopr.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopr.sv
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopr.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopr.sv
 !i122 11
-R18
+R20
 R6
 r1
 !s85 0
 31
 R7
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/flopr.sv|
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/flopr.sv|
 !i113 1
 R8
 R9
 R10
 vimem
 R1
-!s110 1698800147
+R2
 !i10b 1
-!s100 akQSh8>K=YPVPGh]dIL_>0
+!s100 7nzPbmAoR741LfG5e53Q=1
 R3
-Inj`Rzae6_D;Fge?dJfSMJ0
+I:CZ5eR]:?V?TFP]2mm4[:0
 R4
 S1
 R0
-w1698799176
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv
-!i122 18
+w1699065889
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/imem.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/imem.sv
+!i122 14
 L0 4 18
 R6
 r1
 !s85 0
 31
-!s108 1698800146.000000
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/imem.sv|
+R7
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/imem.sv|
 !i113 1
 R8
 R9
@@ -351,15 +351,15 @@ vmux2
 R1
 R2
 !i10b 1
-!s100 HbVFRXZ>5?NdYc^aRnRFf1
+!s100 84OkNPgRc1zWI0L@EUiGK3
 R3
-IlkN0ES1J0@7OmQ7>`9I_01
+IHSj_SF0ozfcUOQ]Q9;OAM2
 R4
 S1
 R0
-R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/mux2.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/mux2.sv
+w1699048720
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/mux2.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/mux2.sv
 !i122 10
 L0 4 6
 R6
@@ -367,8 +367,8 @@ r1
 !s85 0
 31
 R7
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/mux2.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/mux2.sv|
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/mux2.sv|
 !i113 1
 R8
 R9
@@ -377,24 +377,24 @@ vpre_alu
 R1
 R2
 !i10b 1
-!s100 ;@@GeNd[RJa[PSf1D7OYi1
+!s100 ahdEIjBRAB5D9k0D:fG]V3
 R3
-In6RW8lm3N<>fFoYgU3YV?3
+ISTcZoKli?DRDj5PfW5?Ec1
 R4
 S1
 R0
-R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv
+w1699045348
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/pre_alu.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/pre_alu.sv
 !i122 13
-L0 1 21
+L0 1 19
 R6
 r1
 !s85 0
 31
 R7
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/pre_alu.sv|
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/pre_alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/pre_alu.sv|
 !i113 1
 R8
 R9
@@ -403,75 +403,75 @@ vregfile
 R1
 R11
 !i10b 1
-!s100 8E;]bIgN>;@OaeLT5QA`j2
+!s100 <f3`oChzlOXo?WXXo1Q`b1
 R3
-IN9cZNBW4GgA<L@8]kem6T3
+I1=h3Sa=lQ4ZA0WSk^ogPL1
 R4
 S1
 R0
-R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/regfile.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/regfile.sv
+w1699066311
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/regfile.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/regfile.sv
 !i122 6
-L0 4 23
+L0 4 26
 R6
 r1
 !s85 0
 31
 R12
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/regfile.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/regfile.sv|
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/regfile.sv|
 !i113 1
 R8
 R9
 R10
 vtestbench_peripherals
 R1
-!s110 1698800362
+!s110 1699066385
 !i10b 1
 !s100 k6FmcL;C6AOj:gA0;>hcf3
 R3
-Id7Wj4oaLHE=SG<JdegZA91
+IW0Za9PMDG^Lb4EWN=b=3Y2
 R4
 S1
 R0
 w1698800350
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv
-!i122 20
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/testbench_peripherals.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/testbench_peripherals.sv
+!i122 16
 L0 4 30
 R6
 r1
 !s85 0
 31
-!s108 1698800362.000000
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv|
-!s90 -reportprogress|300|-work|work|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/testbench_peripherals.sv|
+!s108 1699066385.000000
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/testbench_peripherals.sv|
+!s90 -reportprogress|300|-work|work|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/testbench_peripherals.sv|
 !i113 1
 o-work work
 R10
 vtop
 R1
-!s110 1698799870
+R13
 !i10b 1
 !s100 9>AfTjFm3Z?EZ=MilFIG33
 R3
-Ible3KBWNX3d6g`Ee8g_Cl1
+I;2QONQlFik[0V<622k<Xi3
 R4
 S1
 R0
 R5
-8D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/top.sv
-FD:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/top.sv
+8F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/top.sv
+FF:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/top.sv
 !i122 0
 L0 4 20
 R6
 r1
 !s85 0
 31
-!s108 1698799870.000000
-!s107 D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/top.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle|D:/Escritorio/Universidad/Electronica Digital/26-10-23/ARM-SingleCycle/top.sv|
+R14
+!s107 F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle|F:/Electronica-Digital-2/1-11-23/ARM-SingleCycle/top.sv|
 !i113 1
 R8
 R9
